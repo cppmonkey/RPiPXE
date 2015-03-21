@@ -1,0 +1,7 @@
+DEFAULT menu.c32
+PROMPT 0
+
+MENU TITLE PXE Boot
+
+LABEL Test
+MENU LABEL Test
