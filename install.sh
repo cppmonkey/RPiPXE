@@ -10,3 +10,6 @@ cp /usr/lib/syslinux/menu.c32 /srv/tftpboot
 mkdir /srv/tftpboot/pxelinux.cfg
 touch /srv/tftpboot/pxelinux.cfg/default
 
+mkdir /srv/tftpboot/nfs
+mkdir /srv/tftpboot/nfs/x64
+mkdir /srv/tftpboot/nfs/x86
