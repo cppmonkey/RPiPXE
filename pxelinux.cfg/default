@@ -1,0 +1,25 @@
+default menu.c32
+prompt 0
+timeout 300
+ONMTIMEOUT local
+
+MENU TITLE PXE Boot
+
+LABEL x64
+	MENU LABEL x64
+	KERNEL menu.c32
+	APPEND pxelinux.cfg/x64
+
+LABEL x86
+	MENU LABEL x86
+	KERNEL menu.c32
+	APPEND pxelinux.cfg/x86
+
+LABEL Tools
+	MENU LABEL Tools
+	KERNEL menu.c32
+	APPEND pxelinux.cfg/tools
+
+LABEL local
+	MENU LABEL Boot local hard drive
+	LOCALBOOT 0

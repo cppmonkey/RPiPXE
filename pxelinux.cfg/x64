@@ -1,0 +1,4 @@
+LABEL UbuntuX64-14.10
+        MENU LABEL ^Ubuntu 14.10 x64
+        KERNEL nfs/x64/ubuntu/14.10/casper/vmlinuz.efi
+        APPEND initrd=nfs/x64/ubuntu/14.10/casper/initrd.lz boot=casper netboot=nfs nfsroot=192.168.2.109:/srv/tftpboot/nfs/x64/ubuntu/14.10
