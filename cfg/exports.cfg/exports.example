@@ -1,0 +1,2 @@
+/srv/tftpboot/nfs/ *(ro,sync,no_subtree_check)
+/srv/tftpboot/iso/ *(ro,sync,no_subtree_check)
